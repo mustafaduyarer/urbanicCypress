@@ -7,3 +7,5 @@ describe('', () => {
         cy.get('#APjFqb').type("Merhaba Cypress")
     });
 });
+
+//npm install -D cypress-xpath

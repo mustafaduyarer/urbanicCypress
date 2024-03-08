@@ -23,3 +23,16 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+import LoginPage from "../pages/LoginPage"
+
+Cypress.Commands.add("login",() => {
+
+    cy.visit(Cypress.env('loginURL'))
+    LoginPage.emailTextBox().should('be.visible').type(Cypress.env('email'))
+    LoginPage.passwordTextBox().should('be.visible').type(Cypress.env('password'))
+    LoginPage.loginButton().should('be.visible').click()
+    cy.url().should('include', 'weekly-order')
+
+
+})
