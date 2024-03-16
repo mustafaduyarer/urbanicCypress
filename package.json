@@ -9,9 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^13.6.6"
+    "cypress": "^13.6.6",
+    "cypress-plugin-api": "^2.11.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "faker": "^6.6.6"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
     "cypress-xpath": "^2.0.1"
   }
 }

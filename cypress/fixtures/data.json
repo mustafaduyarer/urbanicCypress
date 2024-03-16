@@ -1,0 +1,21 @@
+{
+
+    "zipCode": "95109",
+    "address": "Oxford St & A40, London W2 2UH, UK",
+    "invalidZipCode":"9574",
+    "surname": "Test",
+    "invalidFirstName":"555",
+    "invalidSurname":"555",
+    "invalidEmail":"5555",
+    "invalidPassword": "Test1232",
+    "firstName": "Testfirstname",
+    "lastName": "Test",
+    "email": "test&1%@gmail.com",
+    "password": "Test123.",
+    "confirmPassword": "Test123.",
+    "phoneNumber": "445555555555",
+    "filePath": "cypress/fixtures/flagUnitedKingdom.png"
+
+
+
+}
